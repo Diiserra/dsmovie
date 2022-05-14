@@ -1,9 +1,10 @@
+import HeaderBar from "./components/HeaderBar";
 
 function App() {
   return (
-    <div className="App">
-      Ola
-    </div>
+    <>
+      <HeaderBar/>
+    </>
   );
 }
 
