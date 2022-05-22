@@ -45,7 +45,7 @@ export default function MovieStars({ score }: Props) {
 
   return (
     <div className="dsmovie-stars-container">
-      {fills.map(item => <Star fill={item}/>)}
+      {fills.map((item, id) => <Star key={id} fill={item}/>)}
     </div>
   );
 }
